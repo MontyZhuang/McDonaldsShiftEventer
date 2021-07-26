@@ -16,7 +16,6 @@ from selenium.webdriver.firefox.options import Options as FirefoxOptions
 
     
 def main():
-    event_creation([], True)
     # bool for if we want to check next weeks schedule aswell
     nextWeek = False
     for index in range(0,1):
